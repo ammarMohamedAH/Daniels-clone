@@ -5,7 +5,7 @@ var typed = new Typed("#element", {
   loop: true,
 });
 
-var sec = document.querySelector(".prog-bar");
+var sec = document.querySelector(".about");
 var progBar = document.querySelectorAll(".about .prog-bar h6");
 
 var section = document.querySelector(".numbers-section");
@@ -38,7 +38,7 @@ window.onscroll = function () {
     }
   }
 
-  if (window.scrollY >= sec.offsetTop - 250) {
+  if (window.scrollY >= sec.offsetTop ) {
     progBar.forEach((progBar) => {
       progBar.style.width = progBar.dataset.width;
     });
