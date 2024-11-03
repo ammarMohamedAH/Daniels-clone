@@ -38,7 +38,7 @@ window.onscroll = function () {
     }
   }
 
-  if (window.scrollY >= sec.offsetTop + 150) {
+  if (window.scrollY >= sec.offsetTop ) {
     progBar.forEach((progBar) => {
       progBar.style.width = progBar.dataset.width;
     });
