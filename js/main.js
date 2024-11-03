@@ -5,7 +5,7 @@ var typed = new Typed("#element", {
   loop: true,
 });
 
-var sec = document.querySelector(".about");
+var sec = document.querySelector(".prog-bar");
 var progBar = document.querySelectorAll(".about .prog-bar h6");
 
 var section = document.querySelector(".numbers-section");
